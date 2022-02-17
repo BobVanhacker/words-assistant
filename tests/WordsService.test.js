@@ -1,4 +1,4 @@
-const WordsService = require('../src/service/WordsService');
+const WordsService = require('../src/services/WordsService');
 
 describe("Words Service tests", () => {
     it("Should be able to add a new word, given Bob has not learned it yet", () => {

@@ -1,5 +1,5 @@
 const express = require('express');
-const WordsService = require('./service/WordsService');
+const WordsService = require('./services/WordsService');
 
 const app = express();
 
