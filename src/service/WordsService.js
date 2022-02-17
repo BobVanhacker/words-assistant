@@ -5,7 +5,7 @@ class WordsService {
 
     addWord(word) {
         if (this.checkWordAlreadyExists(word)) {
-            throw new Error("Bob already knows this word");
+            throw new Error("Bob has already learned this word");
         }
         this.words.push(word);
 
