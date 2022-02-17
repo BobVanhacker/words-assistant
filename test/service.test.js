@@ -1,7 +1,7 @@
 const WordsService = require('../src/service/WordsService');
 
 describe("Words Service tests", () => {
-    it("Should be able to add a new word, given Bob does not know it yet", () => {
+    it("Should be able to add a new word, given Bob has not learned it yet", () => {
         const wordsService = new WordsService();
         const serviceResponse = wordsService.addWord("Apple");
 
@@ -9,7 +9,7 @@ describe("Words Service tests", () => {
         expect(serviceResponse[0]).toEqual("Apple");
     });
 
-    it("Should not be able to add a new word, given Bob already knows it", () => {
+    it("Should not be able to add a new word, given Bob has already learned it", () => {
         const ERROR_MESASGE = "Bob has already learned this word"; 
         const wordsService = new WordsService();
         wordsService.addWord("Apple");
