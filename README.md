@@ -17,7 +17,7 @@
 <a id="purpose"></a>
 ## Purpose
 
-This system was create to teach Bob Vanhacker new words. Whenever you teach it a new word, you will receive all previous words learned as response.
+This system was created to teach Bob Vanhacker new words. Whenever you teach Bob a new word, you will receive all previous words learned as response.
 
 <a id="techs"></a>
 ## Technologies Used
